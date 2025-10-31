@@ -1,0 +1,300 @@
+Map Name:<size=200><color=white>✰Cara a cara </color><color=red>ZG✰</color></size> (role)
+Map Type:5
+Holo Sign:0.0, 0.0, 0.0*
+Camera Pos:-4.76, 156.70, -20.15:0.26, 2.25, 359.88
+Chat Cooldown: 0.0
+Max Vehicle Count: 16
+Fuel Consume Rate: 2
+Delete Idle Vehicle: -1
+Vehicle Collision: true
+Health Regeneration: true
+Hide Names: false
+Allow Respawn: true
+Voice-Chat: enabled
+Vote For Role: disabled
+Role-play: disabled
+Approve On Register: false
+Roles List:<color=yellow>[TAXI]</color>,<color=#C7C>[WORKER]</color>,[BUILDER],<color=green>[DOCTOR]</color>,<color=orange>[MECHANIC]</color>,<color=blue>[POLICE]</color>,<color=red>[ADMIN]</color>,<color=yellow>[Ganador]</color>,<color=#FF5BD3>[Finalista]</color>,
+Checkpoint_Editor10:-44.76,156.06,-46.70:0.00,0.00,0.00:0.80,0.80,0.80: 
+Trigger_Box_Editor:49.50,149.35,-51.54:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{ishost=true}|chat{/deletevehicles}|cooldown{100}
+Trigger_Box_Editor:-0.05,155.30,-47.68:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|weapon{empty}|deactivate{}
+Landscape2_Editor:96.06,3.48,989.67:0.00,0.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80} material{Grass0155_1,0.46}
+Landscape2_Editor:112.06,0.48,993.38:0.00,0.00,0.00:1.00,1.00,1.00:color{0.80,0.80,0.80} material{Dirt_Ground_Seamless,0.46}
+Landscape3_Editor:-3690.78,-22.30,803.32:0.00,10.00,0.00:0.60,1.50,0.60:color{0.80,0.80,0.80} material{Grass0155_1,0.41}
+Landscape3_Editor:-1830.27,-10.80,130.25:0.00,0.00,0.00:0.10,2.50,0.10:color{0.80,0.80,0.80} material{Grass0155_1,0.01}
+Landscape3_Editor:-322.38,-10.28,1084.69:0.00,5.00,0.00:4.10,0.10,2.10:color{0.80,0.80,0.80} material{Soil_Beach,1.00}
+Plane_Transparent_Cutout_Editor:-1.50,169.46,1354.32:0.00,0.00,0.00:37.10,19.20,1.00:color{1.00,1.00,1.00} material{Screenshot_2025-08-24-11-22-47-43_b5a5c5cb02ca09c784c5d88160e2ec24-2.jpg?rlkey=mdtf4rdqsn6qqggx5iegfrvjt&st=ogtgf815&dl=0,0.50}
+Billboard_Double_Editor:-11.21,135.94,1364.05:0.00,330.00,0.00:1.00,1.00,1.00: 
+Billboard_Double_Editor:-67.88,119.64,163.27:0.00,190.00,0.00:1.60,1.40,1.00: 
+Plane_Transparent_Cutout_Editor:-75.76,167.26,150.98:0.00,350.00,0.00:54.80,26.20,1.00:color{1.00,1.00,1.00} material{7d621a7c4bdd59176ecc022e17b4b9a9.jpg?rlkey=wb2zcdoez9nh6hdrm2v2kyrcf&st=h9adjkcb&dl=0,0.50}
+Plane_Transparent_Cutout_Editor:69.57,169.96,8.68:0.00,48.00,0.00:37.60,19.30,1.00:color{1.00,1.00,1.00} material{16283fea916a3729f4a2d3b3b0ef0d51-2.jpg?rlkey=kank7w31ecw0qziyld6cblzs4&st=bzgevgdr&dl=0,0.50}
+Billboard_Double_Editor:70.12,136.44,22.59:0.00,18.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:-30.04,266.99,-203.98:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|sound{https;//dl.dropboxusercontent.com/scl/fi/x5gv0ifezjkifugmfnqr8/Sonido-Cambio-de-coche.mp3?rlkey=9nfqli0r9wq8j04o9wv7b4dp7&st=vaq6h9zs&dl=0*50*99999}|cooldown{20}
+Trigger_Box_Editor:131.99,245.95,239.00:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|sound{https;//dl.dropboxusercontent.com/scl/fi/sozqyekk1giatpxv22tze/Trompeta-audio.mp3?rlkey=6i0zzi08nm71ocxvtncz6jgtk&st=kh0rplaw&dl=0*99*9999}|cooldown{20}
+Trigger_Box_Editor:-21.99,266.99,-204.03:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*Ambiente*+2}
+Trigger_Box_Editor:-3.43,151.96,-29.94:0.00,0.00,0.00:14.40,3.00,14.50:mode{enter}|ifcondition{inventory;CuartaVuelta>0}|player{spawn&drive*elissan}|vehicle{ghost*5}|tip{<color=cyan>Invisible por 5 segundos</color>}|inventory{add*CambioCoche*+1}|inventory{del*CuartaVuelta}|calltriggerbox{10,151,-25*1}|calltriggerbox{-22,267,-204}|calltriggerbox{32,156,1223*3}|draw{Car3*4}|deactivate{}
+Trigger_Box_Editor:0.02,162.38,54.64:0.00,0.00,0.00:17.20,16.80,0.80:mode{enter}|ifcondition{inventory;CuartaVuelta>0}|transform{-3.4,152,-29.9*-3.4,155.7,-29.9*99}|deactivate{}
+Trigger_Box_Editor:9.97,150.96,-25.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*QuintaVuelta*+1}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:42.55,151.96,4.64:0.00,0.00,0.00:14.40,3.00,14.50:mode{enter}|ifcondition{inventory;SegundaVuelta>0}|player{spawn&drive*pride}|vehicle{ghost*5}|tip{<color=cyan>Invisible por 5 segundos</color>}|inventory{del*SegundaVuelta}|inventory{add*CambioCoche*+1}|calltriggerbox{38,151,-7*1}|calltriggerbox{-22,267,-204}|calltriggerbox{32,156,1223*3}|draw{Car*4}|deactivate{}
+Trigger_Box_Editor:34.01,156.01,1213.00:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*SegundaVuelta*+1}|inventory{del*PrimeraVuelta}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:-33.01,156.01,1248.98:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*CuartaVuelta*+1}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:-43.32,157.01,1252.73:0.00,0.00,0.00:13.00,5.40,13.00:mode{enter}|ifcondition{inventory;TerceraVuelta>0}|player{spawn&drive*King}|tip{<color=cyan>Invisible por 5 segundos</color>}|vehicle{ghost*5}|inventory{add*CambioCoche*+1}|inventory{del*TerceraVuelta}|calltriggerbox{32,156,1223*3}|calltriggerbox{-33,156,1249*1}|calltriggerbox{-22,267,-204}|draw{Car2*4}|deactivate{}
+Trigger_Box_Editor:0.20,167.75,1130.36:0.00,0.00,0.00:15.10,16.50,2.30:mode{enter}|ifcondition{inventory;TerceraVuelta>0}|transform{-43.3,157,1252.7*-43.3,162.7,1252.7*99}|deactivate{}
+Trigger_Box_Editor:37.97,150.96,-7.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*TerceraVuelta*+2}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:0.02,162.38,54.24:0.00,0.00,0.00:17.20,16.80,0.80:mode{enter}|ifcondition{inventory;SegundaVuelta>0}|transform{42.6,152.0,4.6*42.6,155.7,4.6*99}|deactivate{}
+Trigger_Box_Editor:14.61,275.49,-181.47:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=Chevelle}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:23.37,275.79,-181.09:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=Chevelle}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:32.98,278.39,-181.46:0.00,0.00,0.00:3.00,3.00,3.00:mode{looop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=Chevelle}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:32.98,275.29,-181.46:0.00,0.00,0.00:3.00,3.00,3.00:mode{looop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:6.53,272.29,-181.34:0.00,0.00,0.00:3.00,3.00,3.00:mode{looop}|ifcondition{inventory;TerceraVuelta>0&&vehiclemodel=King}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:42.27,155.85,-51.73:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{israce=true&&ishost=true}|chat{/deletevehicles}|deactivate{}
+Trigger_Box_Editor:32.01,156.01,1223.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*CambioCoche}
+Trigger_Box_Editor:32.98,157.01,1222.33:0.00,0.00,0.00:13.00,5.40,13.00:mode{enter}|ifcondition{inventory;PrimeraVuelta>0}|player{spawn&drive*marock}|vehicle{ghost*5}|tip{<color=cyan>Invisible por 5 segundos</color>}|inventory{add*CambioCoche*+1}|calltriggerbox{32,156,1223*3}|calltriggerbox{-22,267,-204}|calltriggerbox{34,156,1213*1}|draw{Car1*4}|deactivate{}
+Trigger_Box_Editor:46.05,155.85,-51.55:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{israce=true}|inventory{add*PrimeraVuelta*+1}|deactivate{}
+Checkpoint_Editor0:2.04,155.65,9.69:0.00,0.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Reflective_Editor:-51.10,160.45,1275.55:0.00,0.00,0.00:0.30,2.00,121.20:color{0.00,0.50,1.00}
+Block_Scalable_Editor:-0.87,160.35,1286.11:0.00,0.00,0.00:100.50,0.10,100.50:color{0.67,0.67,0.89} material{MetalBare0182,0.25}
+Trigger_Box_Editor:-21.99,266.79,-195.43:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|time{20}|weather{clear}
+Tree_Poplar_Editor:-46.27,160.45,1233.04:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-45.54,160.45,1139.06:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:47.76,160.45,1233.82:0.00,0.00,0.00:1.00,1.00,1.00: 
+Cylinder_Editor:-2.49,160.31,1316.57:0.00,0.00,0.00:5.95,0.10,5.95:color{0.80,0.80,0.80}
+Cylinder_Editor:-43.08,160.31,1252.92:0.00,0.00,0.00:5.95,0.10,5.95:color{0.80,0.80,0.80}
+Cylinder_Editor:32.92,160.31,1222.64:0.00,0.00,0.00:5.95,0.10,5.95:color{0.80,0.80,0.80}
+Cylinder_Editor:-3.51,154.26,-29.69:0.00,0.00,0.00:6.00,0.10,6.00:color{0.80,0.80,0.80}
+Cylinder_Editor:42.46,154.26,4.41:0.00,0.00,0.00:6.00,0.10,6.00:color{0.80,0.80,0.80}
+Cylinder_Editor:-41.82,154.26,-42.44:0.00,0.00,0.00:6.00,0.10,6.00:color{0.80,0.80,0.80}
+Cylinder_Editor:-36.01,154.26,30.84:0.00,0.00,0.00:6.00,0.10,6.00:color{0.80,0.80,0.80}
+Trigger_Box_Editor:-5.20,266.79,-181.92:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*SegundaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:-14.02,266.79,-181.99:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*PrimeraVuelta}|draw{halo}
+Trigger_Box_Editor:-17.25,266.79,-181.99:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*PrimeraVuelta*+1}|draw{halo}
+Trigger_Box_Editor:-28.60,266.79,-182.05:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*CambioCoche}|draw{magic_smoke2}
+Trigger_Box_Editor:-31.90,266.79,-182.04:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*CambioCoche*+1}|draw{magic_smoke1}
+Trigger_Box_Editor:-36.72,266.79,-181.85:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CambioCoche>0}|transform{-39.8,266.8,-188.7*playerpos0,2,0*99999}|calltriggerbox{-30,267,-204*1}
+Trigger_Box_Editor:-39.75,266.79,-188.68:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|draw{magic_smoke3*5}
+UI_Scalable_Editor:-2.17,155.01,-49.76:0.00,180.00,0.00:2.60,3.40,1.00:<size=50><color=white>Solo escoje tu coche. / Just choose your car.|0 Vueltas|0 turns||PD; Los coches se cambian solos.
+UI_Scalable_Editor:-2.17,156.41,-49.76:0.00,180.00,0.00:1.60,1.20,1.00:<color=black><size=150><font=Crayon>Reglas / Rules
+Glass_Scalable_Editor:-7.18,156.77,-50.06:0.00,0.00,0.00:2.00,2.90,1.50:color{1.00,1.00,1.00}
+Trigger_Box_Editor:-7.12,155.35,-49.36:0.00,0.00,0.00:1.20,3.00,1.10:mode{enter}|webrequest{}|sound{Notif3*99*999}|tip{<color=red>My Discord</color> For more./ Para mas.}|draw{halo2}|cooldown{10}
+Block_Scalable_Editor:-7.20,159.45,-50.15:0.00,0.00,0.00:0.50,0.50,0.50:color{0.00,0.00,0.00}
+Tree_Poplar_Editor:-5.23,154.35,-49.27:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-49.65,154.35,-49.79:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:49.65,154.35,-49.64:0.00,0.00,0.00:1.00,1.00,1.00: 
+UI_Scalable_Editor:2.23,156.41,-49.76:0.00,180.00,0.00:1.60,1.20,1.00:<color=black><size=120><font=Crayon>Lista de coches / list of cars;
+UI_Scalable_Editor:-0.24,155.21,-49.80:0.00,180.00,0.00:6.20,6.90,1.00:<font=Crayon>Map By; <color=red>Z<color=black>G
+UI_Scalable_Editor:2.13,154.81,-49.76:0.00,180.00,0.00:2.10,2.40,1.00:<color=black>Primera vuelta; <color=red>A pie|<color=black>segundo coche; <color=red>Marock|<color=black>Tercer coche; <color=red>Pride|<color=black>Cuarto coche; <color=red>King|<color=black>quinto coche; <color=red>Elissan|<color=black>sexto coche; <color=red>JTM|<color=black>seveno coche; <color=red>Chevelle SS|<color=black>Última vuelta; <color=yellow>A pie
+Block_Scalable_Editor:3.86,154.35,-49.92:0.00,0.00,0.00:0.70,4.10,0.70:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.25}
+Block_Scalable_Editor:-4.04,154.35,-49.92:0.00,0.00,0.00:0.70,4.10,0.70:color{1.00,1.00,1.00} material{Concrete_Bare0440,0.25}
+Block_Scalable_Reflective_Editor:-0.12,154.35,-50.16:0.00,0.00,0.00:7.80,3.80,0.60:color{0.82,0.80,0.81} material{Marble_Tiles_Wide,0.25}
+Speed_Booster_Editor:0.06,160.33,1000.44:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,1000.44:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,1000.44:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,1000.44:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,997.24:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,997.24:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,997.24:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.06,160.33,997.24:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,712.56:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,712.56:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,712.56:0.00,180.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,709.36:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,709.36:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,709.36:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.16,158.35,709.36:0.00,0.00,0.00:0.40,1.00,0.20: 
+Speed_Booster_Editor:0.51,156.84,373.38:0.00,180.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,373.38:0.00,180.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,373.38:0.00,180.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,373.38:0.00,180.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,368.58:0.00,0.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,368.58:0.00,0.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,368.58:0.00,0.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:0.51,156.84,368.58:0.00,0.00,0.00:0.40,1.00,0.30: 
+Speed_Booster_Editor:7.32,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:7.32,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,160.92:0.00,180.00,0.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,154.32:0.00,0.00,0.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:7.32,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:7.32,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,160.92:0.00,180.00,0.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,154.32:0.00,0.00,0.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:7.32,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,154.52:0.00,0.00,270.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:7.32,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-7.48,161.32,160.92:0.00,180.00,90.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,160.92:0.00,180.00,0.00:0.60,1.00,0.40: 
+Speed_Booster_Editor:-0.08,154.12,154.32:0.00,0.00,0.00:0.60,1.00,0.40: 
+Tube_Racing_Editor:0.24,163.90,500.03:0.00,0.00,0.00:0.50,0.50,1.50:color{1.00,0.28,0.00}
+Tube_Racing_Editor:0.24,163.90,320.22:0.00,0.00,0.00:0.50,0.50,0.90:color{1.00,0.52,0.00}
+Tube_Racing_Editor:0.24,163.90,368.83:0.00,0.00,0.00:0.50,0.50,0.70:color{1.00,0.73,0.00}
+Trigger_Box_Editor:-10.62,121.85,617.36:0.00,0.00,0.00:595.20,3.00,1656.00:mode{enter}|player{respawn at the last passed checkpoint}|effect{flash}
+Steam_Leak_Editor:-3.05,159.20,1131.87:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:4.07,159.20,1131.91:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-0.05,159.00,863.49:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:3.29,157.40,842.95:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-3.55,157.40,842.55:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-0.50,157.00,577.48:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-2.76,155.40,554.80:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:2.71,155.40,554.57:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-2.21,152.60,265.75:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:6.11,152.60,267.93:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:0.14,155.00,286.99:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:3.15,152.20,53.96:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Steam_Leak_Editor:-2.95,152.20,53.96:270.00,90.00,0.00:10.00,22.10,6.90:color{1.00,0.00,0.49}
+Block_Scalable_Reflective_Editor:-0.12,154.35,-50.16:0.00,90.00,0.00:0.40,4.00,100.10:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,46.23:0.00,0.00,0.00:0.40,2.00,7.80:color{1.00,1.00,0.99}
+Block_Scalable_Reflective_Editor:-50.04,154.35,36.53:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,24.93:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,13.33:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,1.73:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,-9.77:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,-21.37:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,-32.97:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:-50.04,154.35,-44.57:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,43.33:0.00,0.00,0.00:0.40,2.00,14.20:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,28.73:0.00,0.00,0.00:0.40,2.00,15.00:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,-44.57:0.00,0.00,0.00:0.40,2.00,11.60:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,-31.27:0.00,0.00,0.00:0.40,2.00,15.00:color{1.00,0.00,0.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,-16.27:0.00,0.00,0.00:0.40,2.00,15.00:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,13.73:0.00,0.00,0.00:0.40,2.00,15.00:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:50.06,154.35,-1.27:0.00,0.00,0.00:0.40,2.00,15.00:color{1.00,0.00,0.00}
+Tree_Poplar_Editor:15.25,160.45,1137.89:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-14.13,160.45,1137.26:0.00,0.00,0.00:1.00,1.00,1.00: 
+Block_Scalable_Reflective_Editor:-0.93,160.45,1336.28:0.00,90.00,0.00:0.30,4.00,100.60:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:49.30,160.45,1143.98:0.00,0.00,0.00:0.30,2.00,17.50:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:49.30,160.45,1163.08:0.00,0.00,0.00:0.30,2.00,20.80:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:49.30,160.45,1183.87:0.00,0.00,0.00:0.30,2.00,20.80:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:49.30,160.45,1204.67:0.00,0.00,0.00:0.30,2.00,20.80:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:49.30,160.45,1275.55:0.00,0.00,0.00:0.30,2.00,121.20:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:-50.99,160.45,1225.56:0.00,0.00,0.00:0.30,2.00,20.80:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:-50.99,160.45,1205.17:0.00,0.00,0.00:0.30,2.00,20.10:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:-50.99,160.45,1145.18:0.00,0.00,0.00:0.30,2.00,19.50:color{0.00,0.50,1.00}
+Block_Scalable_Reflective_Editor:-50.99,160.45,1164.98:0.00,0.00,0.00:0.30,2.00,20.10:color{1.00,1.00,1.00}
+Block_Scalable_Reflective_Editor:-50.99,160.45,1185.07:0.00,0.00,0.00:0.30,2.00,20.10:color{0.00,0.50,1.00}
+Block_Scalable_Editor:-0.84,160.35,1185.62:0.00,0.00,0.00:100.50,0.10,100.50:color{0.67,0.67,0.89} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.13,159.15,1140.71:1.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Tube_Racing_Editor:0.09,167.40,998.10:0.00,0.00,0.00:0.50,0.50,3.60:color{1.00,0.54,1.00}
+Block_Scalable_Editor:0.03,156.55,871.38:20.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.03,159.25,855.88:0.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.03,156.55,840.48:340.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Tube_Racing_Editor:0.03,165.40,709.85:0.00,0.00,0.00:0.50,0.50,3.60:color{1.00,0.00,0.00}
+Tube_Racing_Editor:0.24,163.90,421.33:0.00,0.00,0.00:0.50,0.50,0.70:color{1.00,1.00,0.00}
+Tube_Racing_Editor:-0.05,161.19,161.30:0.00,0.00,0.00:0.50,0.50,2.90:color{1.00,0.54,0.00}
+Block_Scalable_Editor:0.01,154.25,-0.10:0.00,0.00,0.00:100.50,0.10,100.50:color{0.67,0.67,0.67} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.01,151.45,-0.10:0.00,0.00,0.00:14.40,0.10,4.40:color{0.67,0.67,0.67} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.01,153.25,53.10:357.00,0.00,0.00:7.70,1.30,6.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.17,152.95,263.36:341.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.17,155.55,278.86:0.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.17,152.95,294.36:19.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.10,154.45,553.13:340.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.10,157.15,568.53:0.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Block_Scalable_Editor:0.10,154.45,583.92:20.00,0.00,0.00:10.50,1.30,16.40:color{1.00,0.77,0.55} material{MetalBare0182,0.25}
+Tree_Poplar_Editor:42.89,154.15,49.31:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:12.59,154.15,49.21:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-17.10,154.15,49.21:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-45.33,154.15,48.87:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:-4.29,-0.40,-207.13:0.00,90.00,0.00:1.00,1.00,1.00: 
+Building11_Editor:195.84,2.60,216.10:0.00,0.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:-143.19,-0.40,-227.48:0.00,178.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:151.93,-0.40,-220.31:0.00,178.00,0.00:1.00,1.00,1.00: 
+Building11_Editor:195.95,2.60,347.41:0.00,40.00,0.00:1.00,1.00,1.00: 
+Building12_Editor:-239.25,1.86,48.73:0.00,80.00,0.00:1.00,1.00,1.00: 
+Building18_Editor:130.01,2.92,580.78:0.00,0.00,0.00:1.20,1.40,1.20: 
+Building18_Editor:-239.56,4.72,345.51:0.00,0.00,0.00:1.20,1.40,1.20: 
+Landscape3_Editor:-461.50,-0.78,95.59:0.00,0.00,0.00:0.10,0.10,0.10:color{0.80,0.80,0.80} material{Soil_Sand,0.01}
+Landscape3_Editor:432.44,-0.78,17.33:0.00,0.00,0.00:0.10,0.10,0.30:color{0.80,0.80,0.80} material{Soil_Sand,0.01}
+Building18_Editor:266.10,2.92,480.33:0.00,0.00,0.00:1.20,1.40,1.20: 
+Building18_Editor:333.25,2.92,309.28:0.00,0.00,0.00:1.20,1.40,1.20: 
+Building18_Editor:472.44,2.92,37.02:0.00,0.00,0.00:1.20,1.40,1.20: 
+Building13_Editor:346.93,-0.40,-89.07:0.00,328.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:-349.47,-0.40,233.66:0.00,180.00,0.00:1.00,1.00,1.00: 
+Building13_Editor:381.90,-0.40,167.81:0.00,208.00,0.00:1.00,1.00,1.00: 
+Building18_Editor:347.59,2.92,-229.82:0.00,0.00,0.00:1.20,1.00,1.20: 
+Building18_Editor:127.71,2.92,-492.83:0.00,0.00,0.00:1.20,2.20,1.20: 
+Trigger_Box_Editor:-44.08,266.79,-181.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;PrimeraVuelta>0&&interactionmenuclick=requestvehicle}|interactionmenu{mainmenu}
+Trigger_Box_Editor:-40.79,266.79,-181.95:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;PrimeraVuelta>0&&dial=3285550153}|interactionmenu{personalvehicle}
+Trigger_Box_Editor:-2.49,269.49,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=Pride}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:-2.01,266.79,-181.80:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*SegundaVuelta}|draw{halo}
+Trigger_Box_Editor:-5.79,269.49,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:-5.79,272.59,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:-2.49,272.69,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=King}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:-2.49,275.69,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=Elissan}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:3.36,266.79,-181.89:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*TerceraVuelta*+1}|draw{halo}
+Trigger_Box_Editor:3.22,269.49,-181.50:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;TerceraVuelta>0&&vehiclemodel=Marock}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:6.53,269.49,-181.34:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;TerceraVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:3.18,272.29,-181.12:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;TerceraVuelta>0&&vehiclemodel=Elissan}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:3.04,275.69,-180.80:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:11.57,266.79,-181.87:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*CuartaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:11.49,269.49,-181.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=Pride}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:11.49,272.39,-181.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:14.63,269.49,-181.43:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=Marock}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:14.63,272.39,-181.43:0.00,0.00,0.00:3.00,3.00,3.00:mode{looop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=Elissan}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:11.49,275.49,-181.35:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;CuartaVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:19.92,266.79,-181.62:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*QuintaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:19.91,269.49,-180.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=Pride}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:19.91,272.59,-180.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=King}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:23.35,269.49,-180.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:23.35,272.79,-180.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=Marock}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:19.91,275.79,-180.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{looop}|ifcondition{inventory;QuintaVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:29.72,266.79,-182.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*SextaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:29.66,269.49,-181.47:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=Pride}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:32.97,269.49,-181.37:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=Marock}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:29.66,272.09,-181.47:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=King}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:32.95,272.09,-181.08:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:29.66,275.29,-181.47:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;NVuelta>0&&vehiclemodel=Elissan}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:38.52,266.79,-181.85:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*SevenaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:38.49,269.49,-180.82:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=Pride}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:41.65,269.49,-180.81:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=Marock}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:41.65,272.59,-180.81:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=Zupra}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:38.49,272.69,-180.82:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=King}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:38.49,275.99,-180.82:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=Elissan}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:41.57,275.99,-181.02:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SevenaVuelta>0&&vehiclemodel=JTM}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:46.69,266.79,-181.74:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*UltimaVuelta*+1}|draw{halo}
+Trigger_Box_Editor:49.82,266.79,-181.85:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*UltimaVuelta}|draw{halo}
+Trigger_Box_Editor:6.93,266.79,-181.76:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*TerceraVuelta}|draw{halo}
+Trigger_Box_Editor:14.59,266.79,-182.01:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*CuartaVuelta}|draw{halo}
+Trigger_Box_Editor:23.36,266.79,-181.77:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*QuintaVuelta}|draw{halo}
+Trigger_Box_Editor:33.07,266.79,-182.00:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*SextaVuelta}|draw{halo}
+Trigger_Box_Editor:41.58,266.79,-181.75:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{del*SevenaVuelta}|draw{halo}
+Tree_Poplar_Editor:46.31,160.45,1329.57:0.00,0.00,0.00:1.00,1.00,1.00: 
+Tree_Poplar_Editor:-41.22,160.45,1331.47:0.00,0.00,0.00:1.00,1.00,1.00: 
+Trigger_Box_Editor:0.20,167.75,1130.36:0.00,0.00,0.00:15.10,16.50,2.30:mode{enter}|ifcondition{inventory;PrimeraVuelta>0}|transform{33,157,1222.3*33,162.7,1222.3*99}|deactivate{}
+Trigger_Box_Editor:-5.79,275.69,-181.20:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=Chevelle}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:6.58,275.69,-180.77:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{inventory;SegundaVuelta>0&&vehiclemodel=Chevelle}|chat{/emptyvehicle}|cooldown{4}
+Trigger_Box_Editor:-16.66,155.65,-52.10:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{role=admin&&dial=1}|player{race}
+Trigger_Box_Editor:-2.80,157.01,1317.03:0.00,0.00,0.00:13.00,5.40,13.00:mode{enter}|ifcondition{inventory;QuintaVuelta>0}|player{spawn&drive*JTM}|tip{<color=cyan>Invisible por 5 segundos</color>}|vehicle{ghost*5}|inventory{add*CambioCoche*+1}|inventory{del*QuintaVuelta}|calltriggerbox{6,156,1308*1}|calltriggerbox{32,156,1223*3}|calltriggerbox{-22,267,-204}|draw{bike*4}|deactivate{}
+Trigger_Box_Editor:0.20,167.75,1130.36:0.00,0.00,0.00:15.10,16.50,2.30:mode{enter}|ifcondition{inventory;QuintaVuelta>0}|transform{-2.8,157,1317*-2.8,162.7,1317*99}|deactivate{}
+Trigger_Box_Editor:6.00,156.01,1308.04:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*NVuelta*+1}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:0.02,162.58,55.54:0.00,0.00,0.00:17.20,16.80,0.80:mode{enter}|ifcondition{inventory;NVuelta>0}|transform{-36.0,152.8,30.5*-36.0,155.8,30.5*99}|deactivate{}
+Trigger_Box_Editor:-35.97,152.76,30.49:0.00,0.00,0.00:14.40,3.00,14.50:mode{enter}|ifcondition{inventory;NVuelta>0}|player{spawn&drive*Chevelle}|vehicle{ghost*5}|tip{<color=cyan>Invisible por 5 segundos</color>}|inventory{add*CambioCoche*+1}|inventory{del*SextaVuelta}|calltriggerbox{-23,151,30*1}|calltriggerbox{32,156,1223*3}|calltriggerbox{-22,267,-204}|draw{Car1*4}|deactivate{}
+Trigger_Box_Editor:-23.03,150.96,29.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*SevenaVuelta*+1}|calltriggerbox{132,246,239*3}
+Cylinder_Editor:38.56,160.31,1324.76:0.00,0.00,0.00:5.95,0.10,5.95:color{0.80,0.80,0.80}
+Trigger_Box_Editor:33.98,156.01,1314.97:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|inventory{add*PrimeraVuelta*+1}|chat{/despawnvehicle}|calltriggerbox{132,246,239*3}
+Trigger_Box_Editor:38.46,157.01,1323.44:0.00,0.00,0.00:13.00,5.40,13.00:mode{enter}|ifcondition{inventory;SevenaVuelta>0}|chat{/emptyvehicle}|header{<color=cyan>¡Llega al final corriendo!</color>}|player{role*Finalista}|vehicle{ghost*5}|chat{/heistbag}|inventory{add*CambioCoche*+1}|inventory{del*SevenaVuelta}|calltriggerbox{34,156,1315*1}|calltriggerbox{32,156,1223*3}|calltriggerbox{-22,267,-204}|draw{hamburger*4}|deactivate{}
+Trigger_Box_Editor:0.20,167.75,1130.36:0.00,0.00,0.00:15.10,16.50,2.30:mode{enter}|ifcondition{inventory;SevenaVuelta>0}|transform{38.5,157,1323.4*38.5,163.1,1323.4*99}|deactivate{}
+Trigger_Box_Editor:-42.03,155.76,-42.38:0.00,0.00,0.00:9.80,3.00,9.50:mode{enter}|ifcondition{inventory;PrimeraVuelta>0}|inventory{del*PrimeraVuelta}|inventory{del*NVuelta}|weapon{refill}|chat{<size=80><color=white>[playername]</color> <color=red>Acabo el cara a cara</color></size>}|player{team*<color=yellow>Ganador</color>}|player{role*Ganador}|deactivate{}
+UI_Scalable_Editor:-2.17,154.51,-49.76:0.00,180.00,0.00:1.00,1.00,1.00:1 / 2008
+Trigger_Box_Editor:49.50,152.45,-51.54:0.00,0.00,0.00:3.00,3.00,3.00:mode{loop}|ifcondition{dial=2008}|player{role*admin}|deactivate{}
+Checkpoint_Editor1:2.04,155.65,9.69:0.00,0.00,0.00:1.00,1.00,1.00: 
+Checkpoint_Editor2:32.82,162.61,1222.71:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor3:42.59,155.96,4.71:0.00,0.00,0.00:0.70,0.80,0.70: 
+Checkpoint_Editor4:-43.37,162.01,1253.06:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor5:-3.82,156.06,-29.69:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor6:-2.55,162.21,1316.62:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor7:-35.95,156.06,30.94:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor8:38.00,162.21,1324.66:0.00,0.00,0.00:0.80,0.80,0.80: 
+Checkpoint_Editor9:-44.76,156.06,-46.70:0.00,0.00,0.00:0.80,0.80,0.80: 
+Trigger_Box_Editor:-3.47,155.76,-30.15:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Trigger_Box_Editor:42.46,155.76,4.04:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Trigger_Box_Editor:-35.73,155.76,31.05:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Trigger_Box_Editor:-42.47,161.87,1252.56:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Trigger_Box_Editor:-3.31,161.87,1316.09:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Trigger_Box_Editor:32.95,161.87,1223.31:0.00,0.00,0.00:3.00,3.00,3.00:mode{enter}|ifcondition{isinvehicle=true}|vehicle{ghost*3}|cooldown{10}
+Spawn_Point_Editor:-0.02,154.25,-47.79:0.00,180.00,0.00:1.00,1.00,1.00: 
+Downloadable_Content_Material|https://dl.dropboxusercontent.com/scl/fi/xl6bysqk81ljle544xd14/Screenshot_2025-08-24-11-22-47-43_b5a5c5cb02ca09c784c5d88160e2ec24-2.jpg?rlkey=mdtf4rdqsn6qqggx5iegfrvjt&st=ogtgf815&dl=0
+Downloadable_Content_Material|https://dl.dropboxusercontent.com/scl/fi/tb1t1ijr7c6o9wnsg74q2/16283fea916a3729f4a2d3b3b0ef0d51-2.jpg?rlkey=kank7w31ecw0qziyld6cblzs4&st=bzgevgdr&dl=0
+Downloadable_Content_Material|https://dl.dropboxusercontent.com/scl/fi/m0fe4qyj368rksqgchu66/7d621a7c4bdd59176ecc022e17b4b9a9.jpg?rlkey=wb2zcdoez9nh6hdrm2v2kyrcf&st=h9adjkcb&dl=0
+
